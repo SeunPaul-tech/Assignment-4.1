@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,300&family=Merriweather&family=Montserrat:ital,wght@1,400;1,600&family=Open+Sans:ital,wght@1,400;1,500&family=Poppins:ital,wght@0,200;0,400;1,700&family=Roboto:ital,wght@0,400;0,500;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,300&family=Merriweather&family=Montserrat:ital,wght@0,400;0,500;1,600&family=Open+Sans:ital,wght@1,400;1,500&family=Poppins:ital,wght@0,200;0,400;1,700&family=Roboto:ital,wght@0,400;0,500;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 1.3em/1.3 'Merriweather', serif;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    background: url("./bg-tablet-pattern.svg") no-repeat 100% -15%, url("./bg-tablet-pattern.svg") no-repeat -25% 90%, url("./bg-tablet-pattern.svg") no-repeat 100% 120%;
+    background-size: 700px;
+    /* background-color: whitesmoke; */
+    /* background: radial-gradient(circle farthest-corner at 55% 70%, rgb(240, 230, 230) 15%, rgb(228, 223, 223) 30%, rgb(233, 231, 228) 25%, rgb(231, 225, 226) 25%); */
+   
+}
+
+/* 
+.forthsec::before{
+    content: "";
+    background: url('../img/bg-tablet-pattern.svg') no-repeat 5% 2%;
+    background-size: 100px;
+    position: relative;
+    left: 100px;
+    color: lightblue;
+    z-index: 10;
+   
+
+} */
+
+img[src*="illustration"]{
+    width: 40%; 
+    height: 20%;
+    margin: 20px;
+    margin-left: 400px;
+    
+
+    /* padding-right: 50px; */
+    /* justify-content: flex-end; */
+    /* border-radius: 20px; */
+}
+
+
+
+img[src*="logo"]{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Lato', 'Open Sans', Poppins;
+}
+
+main{
+    /* border: 2px solid salmon; */
+    width: 1440px;
+    /* height: 100vh; */
+    font: 1em/1.3 'Montserrat', sans-serif;
+    /* background-color: ; */
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    
+}
+.secondsec{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 15px;
+    align-items: center;
+    margin-right: 40px;
+    
+    /* justify-content: center; */
+}
+
+.box{
+    /* width: 200px; */
+    /* background: url("../illustration-intro.svg") no-repeat 0 0; */
+    background-size: 500px;
+    cursor: pointer;
+}
+
+.logo{
+    transform-origin: 60% 60%;
+    transition: all 4s ease-in-out;
+}
+.box:hover .logo{
+    transform: rotate(2turn) scale(65deg) translate(60%, 80%);
+} 
+
+
+.secondsec  h2{
+    font-size: 2em;
+    font-weight: 600 ;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    word-wrap: break-word;
+    word-break: break-all;
+    /* width: 28%; */
+}
+
+.secondsec p{
+    font: 0.6em/1.5 'Montserrat', sans-serif;;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    
+}
+header nav, header ul{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    list-style: none;
+    margin: 10px 10px 15px 10px
+}
+
+header li > a{
+   margin-right: 20px;
+   font-size: 1.3rem;
+   color: #8d8787;
+}
+
+button{
+    font: 1 'Poppins', sans-serif;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+img{
+    width: 100px;
+    justify-content: center;
+}
+
+
+.aside{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid green;
+}
+
+.aside div{
+    margin-right: 20px;
+    line-height: 1.4;
+    font-size: 1em;
+}
+
+.aside div > h3{
+    font: 1em/1.2 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+
+.aside p{
+    line-height: 2;
+    margin-right: 50px;
+    width: 70%;
+}
+
+.aside li{
+    list-style-type: decimal-leading-zero;
+    /* background-color: rgb(238, 118, 96); */
+    list-style-position: outside;
+   
+}
+p{
+    font: 0.6em/1.6 'Poppins', sans-serif;
+    
+}
+
+aside article{
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+span{
+    text-align: center;
+    font: 0.7em/1.2 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin: 10px;
+}
+
+
+.thirdsec{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid saddlebrown; */
+    /* margin-top: 40px; */
+}
+
+.thirdsec h5{
+    color: rgb(13, 178, 233);
+    font: 0.7em/1.2 'Montserrat', sans-serif;
+    margin: 5px;
+}
+
+.thirdsec p{
+    font: 0.7/1.2 'Montserrat', sans-serif;
+    width: 60%;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+
+#single-form > button{
+    position: relative;
+    left: 640px;
+    /* align-items: center; */
+    margin: 30px;
+    border: 1px solid tomato;
+}
+
+
+.forthsec{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid slategray; */
+    background-color: tomato;
+    padding: 20px;
+    padding-bottom: 25px;
+    /* background: url("../img/bg-simplify-section-desktop.svg") no-repeat 0 0;
+    background-size: 200px;
+    background-clip: content-box; */
+}
+.forthsec button{
+    background-color: whitesmoke;
+    color: tomato;
+    border: 1px solid tomato;
+    
+}
+.forthsec > form{
+    margin-right: -300px;
+   
+}
+
+.forthsec h3{
+    color: white;
+    justify-content: space-between;
+    margin-left: -300px;
+    width: 25%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: rgb(54, 49, 49);
+    padding: 20px 0 10px 0;
+    margin: -5px -2px -20px -3px;
+   align-items: center;
+}
+
+input[placeholder*="Updates"]{
+    border-radius: 15px;
+    padding: 5px;
+}
+
+footer div:nth-child(n+2){
+    font-family: 'Anonymous Pro', monospace;
+    color: grey;
+    line-height: 1.2;
+}
+img[src*="footer"]{
+    margin-bottom: -10px;
+}
+
+footer div:nth-child(1){
+    margin-top: 6px;
+    /* line-height: 1; */
+}
+footer div a{
+    color: grey;
+    font-size: 15px;
+}
+
+.fonts li{
+    list-style: none;
+    display: inline;
+    
+    /* margin-top: 10px; */
+}
+
+.fonts{
+    margin-top: 10px;
+}
+
+footer div li{
+    list-style: none;
+    color: grey;
+    margin-left: 10px;
+    font-size: 16px;
+}
